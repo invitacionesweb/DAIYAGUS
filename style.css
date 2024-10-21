@@ -69,7 +69,7 @@
 header h2 {
     text-align: center;
     padding: 0 0 0 0px;
-    font-size: 6.8rem;
+    font-size: 6rem;
     font-family: var(--font-principal);
     line-height: 90%;
     margin-bottom: 10px;
@@ -522,11 +522,13 @@ footer img {
 .galeria {
     width: 100%;
     display: grid;
-    grid-template-columns:1fr 1fr; 
+    grid-template-columns:1fr ; 
 }
-
+.f4 {
+    display: none;
+}
 .galeria img {
-    width: 50vw;
+    width: 100vw;
 }
 .gift-block {
     flex-direction: column;
